@@ -1,11 +1,10 @@
-package CollectionsUsage;
+package DataStructures;
 
-public class HashMapFunctions {
-	
+public class myQueue {
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
 	}
-
 
 }
