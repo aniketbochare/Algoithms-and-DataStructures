@@ -1,3 +1,9 @@
+/**
+ * @author Aniket Bochare
+ * Implementation of Stack using fixed size (Arrays)
+ * Date - 01/03/2015
+ */
+
 package DataStructures;
 
 import java.util.Stack;
