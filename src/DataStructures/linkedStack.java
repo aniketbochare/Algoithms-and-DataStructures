@@ -10,9 +10,9 @@ import java.util.LinkedList;
 
 public class linkedStack {
 	
-	private LinkedList<Object> list = new LinkedList<Object>();
+    private LinkedList<Object> list = new LinkedList<Object>();
 	
-	public void push(Object item) {list.addFirst(item);}
+    public void push(Object item) {list.addFirst(item);}
     public Object pop() {return list.removeFirst();}
     public Object peek() {return list.getFirst();}
     public int size() {return list.size();}
