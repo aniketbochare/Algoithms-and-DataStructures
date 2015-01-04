@@ -100,6 +100,7 @@ public class myLinkedList {
 			this.next = null;
 		}
 		
+		@SuppressWarnings("unused")
 		//Another Constructor
 		
 		Node (Object data, Node next) {
@@ -126,12 +127,12 @@ public class myLinkedList {
          * class.
          */
  
-        System.out.println("Initial List " + myList+ " and its size = " +myList.size());
-        System.out.println("Get 3rd element: " + myList.get(3));
+        System.out.println("Print Initial List " + myList+ " and its size = " +myList.size());
+        System.out.println("Get 3rd element = " + myList.get(3));
         System.out.println("Remove 2nd element: " + myList.remove(2));
-        System.out.println("Get 3rd element: " + myList.get(3));
-        System.out.println("Size of Linked List"  + myList.size());
-        System.out.println("Print LinkedList" + myList);
+        System.out.println("Get 3rd element = " + myList.get(3));
+        System.out.println("Size of Linked List = "  + myList.size());
+        System.out.println("Print LinkedList " + myList);
 		
 	}
 
