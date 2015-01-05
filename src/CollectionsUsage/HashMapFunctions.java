@@ -44,14 +44,25 @@ public class HashMapFunctions {
 	    
 	    System.out.println (charMap);
 	    
-	    //Using iterator
+	 //Best method get iterator for entry set and then check hasNext and then cast iterator to Entry to get reference to pair.
+	    //Then getKey and getValue on the pairs.
+	   Iterator it = charMap.entrySet().iterator();
+	      while (it.hasNext()) {
+	            Map.Entry pairs = (Map.Entry)it.next();
+	            System.out.println(pairs.getKey() + " = " + pairs.getValue());
+	            it.remove(); // avoids a ConcurrentModificationException
+	    }
+	
 	    
+	    //Using iterator 2nd style
+	    /*
 	    Iterator<Integer> keySetIterator = charMap.keySet().iterator(); //Get iterator for all the keysets
 	    
 	    while (keySetIterator.hasNext()){
 	    	Integer key = keySetIterator.next();
 	    	System.out.println("Key = " +key + "Value = " +charMap.get(key));
 	    }
+	    */
 	    
 	    System.out.println("Size of Map: " + charMap.size());
 	    

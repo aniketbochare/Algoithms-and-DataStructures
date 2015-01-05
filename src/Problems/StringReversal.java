@@ -16,6 +16,12 @@ public class StringReversal {
 		    	sArray[last] = temp;
 		    	first++;
 		    	last--;
+		    	/*
+		    	 * Alternate Swap
+		    	 * a = a XOR b; // (a XOR b)
+                   b = a XOR b; // (a XOR b) XOR b = a
+                   a = a XOR b; // (a XOR b) XOR a = b
+		    	 * */
 		    }
 		    return new String(sArray);
 		    		
