@@ -1,3 +1,9 @@
+/**
+ * @author Aniket Bochare
+ * Usage of Queue Functions
+ * Date - 01/04/2015
+ */
+
 package CollectionsUsage;
 
 public class QueueFunctions {
