@@ -23,7 +23,7 @@ public class StringReversal {
                    a = a XOR b; // (a XOR b) XOR a = b
 		    	 * */
 		    }
-		    return new String(sArray);
+		    return new String(sArray); //String (char[]) ;
 		    		
 		}
 	}
