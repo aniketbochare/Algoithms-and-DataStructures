@@ -65,6 +65,24 @@ public class StringFunctions {
 	   str1.replace( 6, 11, "java");
 	   System.out.println(str1);
 	   
+	   /*Character.isDigit(string.charAt(0))
+Note that this will allow any Unicode digit, not just 0-9. You might prefer:
+
+char c = string.charAt(0);
+isDigit = (c >= '0' && c <= '9');
+Or the slower regex solutions:
+
+s.substring(0, 1).matches("\\d")
+// or the equivalent
+s.substring(0, 1).matches("[0-9]")
+However, with any of these methods, you must first be sure that the string isn't empty. If it is, charAt(0) and substring(0, 1) will throw a StringIndexOutOfBoundsException. startsWith does not have this problem.
+
+To make the entire condition one line and avoid length checks, you can alter the regexes to the following:
+
+s.matches("\\d.*")
+// or the equivalent
+s.matches("[0-9].*")*/
+	   
 	   //Most of the functions are mutating and similar between StringBuffer and StringBuilder.
 
 	}
