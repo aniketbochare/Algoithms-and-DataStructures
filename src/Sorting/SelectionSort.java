@@ -24,7 +24,7 @@ public class SelectionSort {
                     minPos = j;
                 }
             }
-            swap(list, minPos, i);
+            swap(list, minPos, i);//Swap in java can only be performed by passing array as reference passing indexes.
         }
         return list;
     }
