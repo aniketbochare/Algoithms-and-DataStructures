@@ -37,7 +37,7 @@ public class LongestIncreasingSubSequence {
 
         }
         sequences.add(currentSequence);
-        System.out.println(sequences);
+       // System.out.println(sequences);
     }
 
     public void findSubSequences(ArrayList<Integer> input) {
