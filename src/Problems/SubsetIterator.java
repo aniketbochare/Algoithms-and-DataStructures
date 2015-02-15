@@ -36,7 +36,7 @@ public class SubsetIterator<E> {
 		List<E> newset = new ArrayList<E>();
 		int flag =1;
 		for(E element : set){
-			if((index & flag)!=0){
+			if((index & flag)!=0){ ///MOst important logic.
 				newset.add(element);
 			}
 			flag<<=1;
