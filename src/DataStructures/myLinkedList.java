@@ -115,11 +115,11 @@ public class myLinkedList {
 		myLinkedList myList = new myLinkedList();
 		 
         // add elements to LinkedList
-		myList.add("1");
-		myList.add("2");
-		myList.add("3");
-		myList.add("4");
-		myList.add("5");
+		myList.add("One");
+		myList.add("Two");
+		myList.add("Three");
+		myList.add("Four");
+		myList.add("Five");
  
         /*
          * Please note that primitive values can not be added into LinkedList
