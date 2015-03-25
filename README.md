@@ -1,4 +1,4 @@
-Algoithms-and-DataStructures
+Algorithms-and-DataStructures
 ============================
 
 Algorithms and DS in Java
